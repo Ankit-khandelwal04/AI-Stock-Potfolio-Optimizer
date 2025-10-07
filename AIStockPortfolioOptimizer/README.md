@@ -1,7 +1,7 @@
-# AIStockPortfolioOptimizer
+# AI Stock Portfolio Optimizer
 
 ## Project Overview
-AIStockPortfolioOptimizer is a C++ application with a Qt GUI designed to help users manage and optimize their stock portfolios. The application utilizes data structures and algorithms to simulate buying and selling stocks, track performance, and recommend optimized portfolio allocations using AI-inspired techniques.
+AI-Stock-Portfolio-Optimizer is a C++ application with a Qt GUI designed to help users manage and optimize their stock portfolios. The application utilizes data structures and algorithms to simulate buying and selling stocks, track performance, and recommend optimized portfolio allocations using AI-inspired techniques.
 
 ## Features
 - **Stock Management**: Add, remove, or update stock information with attributes such as symbol, company name, price, risk factor, and expected return.
