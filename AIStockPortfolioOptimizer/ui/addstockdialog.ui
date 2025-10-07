@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddStockDialog</class>
+ <widget class="QDialog" name="AddStockDialog">
+  <property name="windowTitle">
+   <string>Add Stock</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="lineEditSymbol">
+     <property name="placeholderText">
+      <string>Symbol</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEditName">
+     <property name="placeholderText">
+      <string>Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="doubleSpinBoxPrice">
+     <property name="prefix">
+      <string>Price: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="doubleSpinBoxRisk">
+     <property name="prefix">
+      <string>Risk: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="doubleSpinBoxReturn">
+     <property name="prefix">
+      <string>Expected Return: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="buttonAddStock">
+     <property name="text">
+      <string>Add Stock</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

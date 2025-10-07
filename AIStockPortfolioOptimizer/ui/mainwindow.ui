@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AI-Driven Stock Portfolio Optimizer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <widget class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="addStockButton">
+       <property name="text">
+        <string>Add Stock</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="removeStockButton">
+       <property name="text">
+        <string>Remove Stock</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="optimizePortfolioButton">
+       <property name="text">
+        <string>Optimize Portfolio</string>
+       </property>
+      </widget>
+     </item>
+    </widget>
+    <widget class="QTableWidget" name="portfolioTable">
+     <column>
+      <property name="text">
+       <string>Symbol</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Risk</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Return</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Weight %</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QHBoxLayout" name="footerLayout">
+     <item>
+      <widget class="QPushButton" name="viewStatsButton">
+       <property name="text">
+        <string>View Stats</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveExitButton">
+       <property name="text">
+        <string>Save & Exit</string>
+       </property>
+      </widget>
+     </item>
+    </widget>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
